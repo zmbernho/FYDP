@@ -19,7 +19,7 @@ audiogame.isRecordMode = false;
 // an array to store all music notes data.
 audiogame.musicNotes = [];
 
-audiogame.leveldata = "1.592,3;1.984,2;2.466,1;2.949,2;4.022,3;4.443,2;4.594,1;5.498,3;5.92,2;6.04,1;7.034,2;7.395,3;7.968,2;8.45,1;8.962,2;10.018,3;10.258,2;10.44,2;10.711,1;10.977,2;11.556,3;12.008,1;13.588,3;14.013,2;14.495,1;14.946,2;16.003,3;16.395,2;16.546,1;17.48,3;17.85,2;18.001,1;19.026,2;19.508,3;19.96,2;20.412,1;20.955,2;22.01,3;22.252,2;22.432,2;22.673,1;23.518,3;23.788,2;24.029,1;25.024,3;25.506,2;26.019,1;26.531,2;27.043,3;28.038,3;28.52,2;28.972,1;29.454,2;29.967,3;30.51,2;31.022,3;31.474,2;31.956,3;32.408,2;32.89,3;33.433,2;34.006,3;34.398,2;34.518,1;35.453,3;35.875,2;36.026,1;37.111,2;37.504,3;38.016,1;38.529,3;38.981,2;39.524,3;40.007,2;40.459,1;40.971,2;41.483,3;41.936,2;42.448,1;42.992,2;43.444,3;43.956,2;44.378,3;44.92,2;45.945,3;46.337,2;46.488,1;47.513,3;47.875,2;47.995,1;49.141,2;49.533,3;50.045,2;50.557,1;51.039,2;51.521,3;52.004,2;52.486,1;52.998,2;53.481,3;53.993,2;54.505,1;54.988,2;55.44,3;55.952,2;56.434,3;56.916,2;57.429,1;57.911,2;58.454,3;58.966,2;59.539,3;60.051,2;61.256,3;61.739,2;62.222,1;62.704,2;63.216,3;63.699,2;64.212,1;64.755,2;65.267,3;65.749,2;66.261,3;66.743,2;67.256,3;67.738,2;68.251,1;68.764,2;69.247,3;69.729,2;70.271,3;70.753,2;71.265,1;71.717,2;72.289,3;73.223,3;73.736,2;74.249,1;74.731,2;75.274,3;75.756,2;76.268,3;76.78,2;77.262,3;77.744,2;78.257,3;78.77,2;79.252,1;79.765,2;80.277,3;80.729,2;81.241,1;81.754,2;82.266,3;82.779,3;83.261,2;83.744,1;84.256,2;84.799,3;85.643,3;86.276,2;86.758,3;87.24,2;87.722,3;88.236,2;88.778,1;89.26,2;89.773,3;90.256,2;90.708,1;91.191,2;91.763,3;92.216,2;92.729,3;93.241,2;93.753,1;94.235,3;94.748,3;95.29,2;95.742,3;96.224,2;96.827,3;97.671,3;98.334,3;98.906,3;100.022,3;100.444,2;100.564,1;101.468,3;101.859,2;102.01,1;102.975,2;103.367,3;103.518,2;103.88,3;104.031,2;104.393,3;104.544,2;104.905,3;105.057,2;105.961,3;106.205,2;106.416,2;106.657,1;106.928,2;107.169,3;107.441,2;107.712,1;107.984,3;108.527,2;109.009,1;109.401,2;109.521,3;110.034,2;110.546,3;111.029,2;111.964,3;112.084,2;112.265,1;112.416,2;112.988,3;113.501,3;113.892,2;114.043,1;114.525,2;115.037,3;115.399,2;115.55,1;115.852,3;116.002,2;116.365,3;116.485,2;116.847,3;116.998,2;117.963,3;118.354,2;118.506,1;119.503,3;119.865,2;120.015,1;";
+audiogame.leveldata = "0.3571,5; 1.6616,1;3.6787,4;4.1316,5;5.4396,2;6.9372,4;7.5702,1;8.5776,3;12.2949,5;15.3989,4;16.2489,3;18.4489,2;19.5318,2;21.6681,2;24.6944,4;25.9249,1;26.3706,5;27.6388,5;29.4829,3;30.6298,4;31.4650,3;32.1092,3;33.1131,1;34.1079,5;35.4457,1;36.9388,3;37.6338,2;38.9297,3;39.0629,5;40.3069,5;41.9498,1;42.0104,4;43.1678,3;45.8338,5;46.6059,5;47.5179,5;48.9429,1;49.7412,5;50.7011,2;52.8738,5;54.9819,3;55.9186,1;56.2835,4;57.0586,4;58.8210,2;59.1795,2;60.0349,4;61.7713,5;62.5405,4;64.5782,3;65.8545,4;66.6424,3;67.4201,1;68.5459,2;69.1823,5;71.2054,5;72.2597,2;73.9426,2;74.6416,4;75.8291,2;77.1684,5;78.7401,5;79.8728,2;80.3555,4;81.1788,2;82.9964,2;83.9591,2;84.1560,1;85.9289,5;86.4246,4;87.2231,2;88.1364,3;89.2602,4;91.0822,2;93.0292,4;94.4549,4;95.3325,4;96.9437,4;97.3031,3;98.4282,2;99.6610,1;100.3811,3;101.1362,1;102.0966,1;103.3052,1;104.8239,3;105.6273,1;106.2059,3;107.9802,1;108.4378,3;109.8352,1;110.5392,3;111.0251,5;112.0068,1;113.7861,2;114.4474,2;115.2887,2;116.8632,3;117.6562,1;118.2847,3;119.6446,4;120.2636,3";
 
 
 // the visual dots drawn on the canvas.
@@ -33,6 +33,8 @@ audiogame.totalSuccessCount = 0;
 
 // storing the success count of last 5 results.
 audiogame.successCount = 5;
+//Points initialized at 0
+audiogame.points=0;
 
 function setupLevelData()
 {
@@ -64,7 +66,7 @@ $(function(){
 	
 	// load the dot image
 	audiogame.dotImage.src = "images/dot.png";
-	
+
 	// listen the button event that links to #game
 	$("a[href='#game']")
 	.hover(function(){
@@ -124,10 +126,13 @@ $(function(){
 					audiogame.successCount++;
 				
 					// keep only 5 success count max.
-					audiogame.successCount = Math.min(5, audiogame.successCount);
+					audiogame.successCount = Math.max(5, audiogame.successCount);
 					
 					// increase the total success count
 					audiogame.totalSuccessCount ++;
+
+					//add to points
+					audiogame.points++;
 				}
 			}
 		}	
@@ -172,39 +177,77 @@ function drawBackground()
 	// get the reference of the canvas and the context.
 	var game = document.getElementById("game-background-canvas");
 	var ctx = game.getContext('2d');
-		
-	// set the line style of the three vertical lines.
-	ctx.lineWidth = 10;
+	
+	// set the line style
+	ctx.lineWidth = 3;
 	ctx.strokeStyle = "#000";
 	
-	var center = game.width/2;
+	var width = game.width;
+	var center = game.height/2;
 	
-	// draw the three lines
-	// the left line is placed 100 pixels on the left of center.
+	//Draw the small rectangle to define the scoring area
 	ctx.beginPath();
-	ctx.moveTo(center-100, 50);
-	ctx.lineTo(center-100, ctx.canvas.height - 50);		
+	ctx.rect(100, center-200, width-920, center+135);
 	ctx.stroke();
 	
-	// the middle line is placed at the center
-	ctx.beginPath();
-	ctx.moveTo(center, 50);
-	ctx.lineTo(center, ctx.canvas.height - 50);
+	// Border for end of area
+	ctx.beginPath ();
+	ctx.strokeStyle = '#000';
+	ctx.lineWidth = 3;
+	ctx.strokeRect(100, center-200, width-920, center+135);
 	ctx.stroke();
 	
-	// the right line is placed 100 pixels on the right of center.
+	//Draw the 5 circles to define the correct place to press the buttons Top - Bottom
 	ctx.beginPath();
-	ctx.moveTo(center+100, 50);
-	ctx.lineTo(center+100, ctx.canvas.height - 50);
+	ctx.fillStyle = '#ACB9E8';
+	ctx.arc(155, center-200+37, 30, 0, 2 * Math.PI);
+	ctx.fill();
+	
+	ctx.beginPath ();
+	ctx.arc(155, center-125+37, 30, 0, 2 * Math.PI);
+	ctx.fill();
+	
+	ctx.beginPath ();
+	ctx.arc(155, center-50+37, 30, 0, 2 * Math.PI);
+	ctx.fill();
+	
+	ctx.beginPath ();
+	ctx.arc(155, center+25+37, 30, 0, 2 * Math.PI);
+	ctx.fill();
+	
+	ctx.beginPath ();
+	ctx.arc(155, center+100+37, 30, 0, 2 * Math.PI);
+	ctx.fill();
+	
+	//Draw large rectangle to define play area
+	ctx.beginPath();
+	ctx.strokeStyle = '#000000';
+	ctx.rect(100, center-200, width-300, center+135);
 	ctx.stroke();
 	
-	// draw the horizontal line
+	// draw the four lines
+	// the bottom line is placed 100 pixels below center.
 	ctx.beginPath();
-	ctx.moveTo(center-150, ctx.canvas.height - 80);
-	ctx.lineTo(center+150, ctx.canvas.height - 80);
-	// reset the line style to 1px width and grey before actually drawing the horizontal line. 
-	ctx.lineWidth = 1;
-	ctx.strokeStyle = "rgba(50,50,50,.8)";
+	ctx.moveTo(width-200, center+100);
+	ctx.lineTo(100, center+100);		
+	ctx.stroke();
+
+	// the 3rd line from the bottom is placed 25 pixels below center
+	ctx.beginPath();
+	ctx.moveTo(width-200, center+25);
+	ctx.lineTo(100, center+25);
+	ctx.stroke();
+	
+	// the 2nd line from the bottom is 50 pixels above center
+	ctx.beginPath();
+	ctx.moveTo(width-200, center-50);
+	ctx.lineTo(100, center-50);
+	ctx.stroke();
+	
+	// the top most line is 125 pixels above center
+	ctx.beginPath();
+	ctx.moveTo(width-200, center -125);
+	ctx.lineTo(100,center -125);
 	ctx.stroke();
 }
 
@@ -245,18 +288,21 @@ function gameloop()
 			
 			// reset the success count to 0 if it is lower than 0.
 			audiogame.successCount = Math.max(0, audiogame.successCount);
-									
+										
+			//Points
+			audiogame.points--;
 		}
+
 		
-		// remove missed dots after moved to the bottom
-		if (audiogame.dots[i].distance < -100)
+		// remove missed dots after moved to the side
+		if (audiogame.dots[i].distance <-350)
 		{
 			audiogame.dots.splice(i, 1);
 		}
 	}
 	
 	// calculate the percentage of the success in last 5 music dots
-	var successPercent = audiogame.successCount / 5;
+	var successPercent = audiogame.successCount / audiogame.totalDotsCount;
 	
 	// prevent the successPercent to exceed range(fail safe)
 	successPercent = Math.max(0, Math.min(1, successPercent));	
@@ -271,8 +317,8 @@ function gameloop()
 		audiogame.dots[i].distance -= 2.5;
 	}
 	
-	// only clear the dirty area, that is the middle area
-	ctx.clearRect(ctx.canvas.width/2-200, 0, 400, ctx.canvas.height);
+	// clear rectangle of screen
+	ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 				
 	
 	// draw the music note dots
@@ -286,21 +332,32 @@ function gameloop()
 		ctx.fillStyle = circle_gradient;
 		
 		// draw the path
-		//console.log(ctx.canvas.height-80-audiogame.dots[i].distance);
 		ctx.save();	
-		var center = game.width/2;
+		var center = game.height/2;
 		var dot = audiogame.dots[i];
-		var x = center-100
-		if (dot.line == 2)
+		var x = center;
+		if (dot.line == 1)
 		{
-			x = center;
+			x = center-125-37;
+		}
+		else if (dot.line == 2)
+		{
+			x = center-50-37;
 		}
 		else if (dot.line == 3)
 		{
-			x = center+100;
+			x = center+25-37;
 		}
-		ctx.translate(x, ctx.canvas.height-80-audiogame.dots[i].distance);
-		ctx.drawImage(audiogame.dotImage, -audiogame.dotImage.width/2, -audiogame.dotImage.height/2);		
+		else if (dot.line == 4)
+		{
+			x = center+100-37;
+		}
+		else if (dot.line == 5)
+		{
+			x = center+175-37;
+		}
+		ctx.translate(500+audiogame.dots[i].distance,x);
+		ctx.drawImage(audiogame.dotImage, -audiogame.dotImage.height, -audiogame.dotImage.width/2);		
 		ctx.restore();
 	}
 	
@@ -311,4 +368,26 @@ function onMelodyEnded()
 {
 	console.log('song ended');
 	console.log('success percent: ',audiogame.totalSuccessCount / audiogame.totalDotsCount * 100 + '%');
+	/*
+	if (audiogame.totalSuccessCount / audiogame.totalDotsCount * 100 >= 70)
+	{
+		var badge = 
+	}	
+	else if (audiogame.totalSuccessCount / audiogame.totalDotsCount * 100 >= 80)
+	{
+		var badge = 
+	}
+	else if (audiogame.totalSuccessCount / audiogame.totalDotsCount * 100 >= 90)
+	{
+		var badge = 
+	}
+	else if (audiogame.totalSuccessCount / audiogame.totalDotsCount * 100 >= 100)
+	{
+		var badge = 
+	}
+	else 
+	{
+		var badge =
+	}
+	*/
 }

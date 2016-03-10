@@ -1,0 +1,114 @@
+
+/*Header*/
+header {
+	margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+    border-bottom: 2px solid #696969;
+}
+
+header table {
+background-color: #F5F5F2;
+}
+/*Title*/
+.title {
+	text-align: center;
+	font-family: Verdana, serif;
+}
+/*Body*/
+body {
+	background-color: #F5F5F2;
+}
+
+/*Footer*/
+footer {
+background-color: #F5F5F2;
+}
+
+/*Title*/
+.title h1 {
+	color: #7881A2;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/*Patient Profile*/
+.patient-profile {
+	padding-left: 10px;
+	display: inline-block;
+}
+
+label {
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    float: left;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 140px;
+}
+
+input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left: 40px;
+}
+
+.input-table tr td h3{
+padding-top: 10px;
+padding-bottom: 5px;
+padding-right: 10px;
+padding-left: 5px;
+}
+
+.main td{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	}
+	
+	#tfnewsearch{
+		margin: 0 auto;
+		padding:20px;
+	}
+	.tftextinput2{
+		margin: 0;
+		padding: 10px 15px;
+		margin-right: 10px;
+		color:#666;
+		border:1px solid #D3D3D3;
+		border-radius: 5px;
+	}
+	.tfbutton2 {
+		margin: 0;
+		padding: 10px 15px;
+		font-weight:bold;
+		text-align: center;
+		color: #000000;
+		border: solid 1px #D3D3D3;
+		background: #D3D3D3;
+		background: -webkit-gradient(linear, left top, left bottom, from(#D3D3D3), to(#C0C0C0));
+		background: -moz-linear-gradient(top,  #D3D3D3,  #C0C0C0);
+		border-radius: 5px;
+	}
+	.tfbutton2:hover {
+		text-decoration: none;
+		background: #C0C0C0;
+		background: -webkit-gradient(linear, left top, left bottom, from(#D3D3D3), to(#C0C0C0));
+		background: -moz-linear-gradient(top,  #D3D3D3,  #C0C0C0);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	
+	.selection  table td{
+	padding: 5px 5px;
+	border: 1px solid #C0C0C0;
+	border-collapse: collapse;
+	}

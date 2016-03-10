@@ -1,0 +1,131 @@
+#game {
+	position: relative;
+	padding-top: 5px;
+	width: 1024px;
+	height: 480px;
+	overflow: hidden;
+}
+
+#game, footer {
+width: 50%;
+	margin: 50px auto;
+}
+
+#game, header {
+	width: 50%;
+	margin: 50px auto;
+}
+
+
+.scene {
+	position: absolute;
+	width: 1024px;
+	height: 480px;
+}
+
+#menu-scene {
+	background: #F5F5F2;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align: center;
+	
+	display: -moz-box;
+	-moz-box-pack:center;
+	-moz-box-align: center;
+	
+	display: box;
+	box-pack:center;
+	box-align: center;
+}
+
+#game-scene {
+	background: #F5F5F2;
+	top: -768px;
+}
+
+#game-scene.show-scene {
+	top: 10px;
+	-webkit-transition: top .3s linear;
+	-moz-transition: top .3s linear;
+	transition: top .3s linear;
+}
+
+
+#game-canvas, #game-background-canvas {
+	position: absolute;
+}
+
+
+/* Menu Scene Elements */
+a[href='#game'] {
+	width: 150px;
+	height: 150px;
+	background: url(../images/play_button.png);
+	overflow: hidden;
+	display: block;	
+}
+
+a[href='#game']:hover {
+	background-color: '#ff0000';
+}
+
+a[href='#game']:active {
+	background-position: -292px;
+}
+
+a[href='#game'] span {
+	display: block;
+	margin-top: -999px;
+}
+
+/* Game Scene Elements */
+
+.hit-line {
+	background: url(../images/hit_line.png);
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+
+.show {
+	opacity: 1;
+}
+
+.hide{
+	opacity: 0;
+	-webkit-transition: opacity .2s linear;
+	-moz-transition: opacity .2s linear;
+	transition: opacity .2s linear;	
+}
+
+#hit-line-1 {
+	left: 130px;
+	bottom: 378px;
+}
+
+#hit-line-2 {
+	left: 130px;
+	bottom: 303px;
+	}
+
+#hit-line-3 {
+	left: 130px;
+	bottom: 228px;
+}
+#hit-line-4 {
+	left: 130px;
+	top: 153px;
+}
+
+#hit-line-5 {
+	left: 130px;
+	bottom:78px;
+}
+
+.game p {
+	position: absolute;
+    right: 200px;
+    width: 480px;
+    padding: 5px;
+}

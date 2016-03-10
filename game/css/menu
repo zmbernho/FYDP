@@ -1,0 +1,247 @@
+body {
+	background: #d3d3d3;
+	color: #333;
+	padding: 50px;
+}
+
+.top {
+    position: relative;
+    background-color: #ffffff;
+    height: 68px;
+    padding-top: 20px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Image */
+
+	.image {
+		border-radius: 6px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			border-radius: 6px;
+			display: block;
+		}
+
+		.image.left {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image.fit img {
+				display: block;
+				width: 100%;
+			}
+
+/* List */
+
+	ol {
+		list-style: decimal;
+		margin: 0 0 2em 0;
+		padding-left: 1.25em;
+	}
+
+		ol li {
+			padding-left: 0.25em;
+		}
+
+	ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
+	}
+
+		ul li {
+			padding-left: 0.5em;
+		}
+
+		ul.alt {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.alt li {
+				border-top: solid 1px #808080;
+				padding: 0.5em 0;
+			}
+
+				ul.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1.25em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+				ul.icons li .icon:before {
+					font-size: 1.5em;
+				}
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.actions li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+				vertical-align: middle;
+			}
+
+				ul.actions li:last-child {
+					padding-right: 0;
+				}
+
+			ul.actions.small li {
+				padding: 0 0.5em 0 0;
+			}
+
+			ul.actions.vertical li {
+				display: block;
+				padding: 1em 0 0 0;
+			}
+
+				ul.actions.vertical li:first-child {
+					padding-top: 0;
+				}
+
+				ul.actions.vertical li > * {
+					margin-bottom: 0;
+				}
+
+			ul.actions.vertical.small li {
+				padding: 0.5em 0 0 0;
+			}
+
+				ul.actions.vertical.small li:first-child {
+					padding-top: 0;
+				}
+
+			ul.actions.fit {
+				display: table;
+				margin-left: -1em;
+				padding: 0;
+				table-layout: fixed;
+				width: calc(100% + 1em);
+			}
+
+				ul.actions.fit li {
+					display: table-cell;
+					padding: 0 0 0 1em;
+				}
+
+					ul.actions.fit li > * {
+						margin-bottom: 0;
+					}
+
+				ul.actions.fit.small {
+					margin-left: -0.5em;
+					width: calc(100% + 0.5em);
+				}
+
+					ul.actions.fit.small li {
+						padding: 0 0 0 0.5em;
+					}
+
+	dl {
+		margin: 0 0 2em 0;
+	}
+
+/* Table */
+
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}
+
+	table {
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		table tbody tr {
+			border: solid 1px #808080;
+			border-left: 0;
+			border-right: 0;
+		}
+
+			table tbody tr:nth-child(2n + 1) {
+				background-color: #808080;
+			}
+
+		table td {
+			padding: 0.75em 0.75em;
+		}
+
+		table th {
+			color: #474d52;
+			font-size: 0.9em;
+			font-weight: 500;
+			padding: 0 0.75em 0.75em 0.75em;
+			text-align: left;
+		}
+
+		table thead {
+			border-bottom: solid 2px #808080;
+		}
+
+		table tfoot {
+			border-top: solid 2px #808080;
+		}
+
+		table.alt {
+			border-collapse: separate;
+		}
+
+			table.alt tbody tr td {
+				border: solid 1px #808080;
+				border-left-width: 0;
+				border-top-width: 0;
+			}
+
+				table.alt tbody tr td:first-child {
+					border-left-width: 1px;
+				}
+
+			table.alt tbody tr:first-child td {
+				border-top-width: 1px;
+			}
+
+			table.alt thead {
+				border-bottom: 0;
+			}
+
+			table.alt tfoot {
+				border-top: 0;
+			}

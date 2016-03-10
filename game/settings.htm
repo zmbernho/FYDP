@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Audio Game</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/menu.css" />
+</head>
+<body>
+	<!--Header PATIENT SELECTION FORWARD-->
+	<header>
+		<center>
+			<table width="100%">
+				<tr>
+					<td class="col-md-4">
+						<img src = "images/profile.png" alt="Profile" height = "50" width = "50" align ="left" />
+						<p>Patient Name</p>
+					</td>
+					<td class="col-md-4" style="text-align: center;">
+						<img src ="images/logo.png" alt="Mozart Logo"  height = "50" width="150" />
+					</td>
+					<td class="col-md-4"> 
+						</td>
+				</tr>
+			</table>
+		</center>
+	</header>
+	<!--Title-->
+	<div class="title">
+		<table width="100%">
+			<tr>
+				<td class="col-md-4">
+					<a href="patient-profile.htm">
+						<h3>< Back to Patient Profile</h3>
+					</a>
+				</td>
+				<td class="col-md-4">
+					<h1>Game Settings</h1>
+				</td>
+				<td class="col-md-4">
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!-- Content-->
+	<!--Form-->
+	<script language="JavaScript">
+	<!--//
+		/*This Script allows people to enter by using a form that asks for a
+		Force and Area*/
+function setup(form) {
+					location="transition.htm" 
+					/*Save data from options for range*/
+}
+</script>
+<!--Form-->
+	<script language="JavaScript">
+	<!--//
+		/*This script grabs previous settings from the patient*/
+		/*Need Sofia Code*/
+function populate(form) {
+	form.yRangeMin.value = 0;
+	form.yRangeMax.value = 70;
+	form.xRangeMin.value = 0;
+	form.xRangeMax.value = 30;
+}
+</script>
+
+
+<div class="input-table">
+	<center>
+		<table>
+			<tr>
+				
+					<h2><b>Exercise Force</b></h2>
+			</tr>
+			<tr>
+					<select>
+						<option value="1">1 N</option>
+						<option value="2">2 N</option>
+						<option value="3">3 N</option>
+						<option value="4">4 N</option>
+						<option value="5">5 N</option>
+					</select>
+				</tr>
+				<tr>
+				
+					<h2><b>Exercise Range</b></h2>
+			</tr>
+				<tr>
+					<td>
+						<h4><b>X Range</b><h4>
+					</td>
+					<td>
+						<select>
+						<option value="0">0 cm</option>
+						<option value="5">5 cm</option>
+						<option value="10">10 cm</option>
+					</select>
+					</td>
+					<td>
+						<select>
+						<option value="20">20 cm</option>
+						<option value="25">25 cm</option>
+						<option value="30">30 cm</option>
+						<option value="35">35 cm</option>
+						<option value="40">40 cm</option>
+						<option value="45">45 cm</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4><b>Y Range</b></h4>
+					</td>
+					<td>
+						<select>
+						<option value="0">0 cm</option>
+						<option value="5">5 cm</option>
+						<option value="10">10 cm</option>
+						<option value="15">15 cm</option>
+						<option value="20">20 cm</option>
+					</select>
+					</td>
+					<td>
+					<select>
+					<option value="40">40 cm</option>
+						<option value="45">45 cm</option>
+						<option value="50">50 cm</option>
+						<option value="55">55 cm</option>
+						<option value="60">60 cm</option>
+						<option value="65">65 cm</option>
+						<option value="70">70 cm</option>
+						
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<center>
+							<input type="button" value="Continue" onClick="setup(this.form)">
+						</center>
+					</td>
+					<td>
+						<center>
+							<input type="button" value="Use Previous Game Settings" onClick="populate(this.form)">
+						</center>
+					</td>
+					<td>
+						<center>
+							<input type="Reset">
+						</form>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</center> 
+	
+	<!--Footer-->
+	<footer>
+		<center>
+			<table>
+				<tr>
+					<td>
+						<a href="doctor-help.htm">
+							<img src="images/help.png" alt="Help" height="100" width="100"  />
+						</a>
+					</td>
+					<td>
+						<a href="doctor-help.htm">
+							<h2> Help</h2>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</div>
+</footer>
+
+
+
+</body>
+</html>

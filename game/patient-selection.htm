@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Audio Game</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/menu.css" />
+	<script language="javascript" type="text/javascript" src="asd.js"></script>
+	<!-- JAVASCRIPT to clear search text when the field is clicked -->
+<script type="text/javascript">
+window.onload = function(){ 
+	//Get submit button
+	var submitbutton = document.getElementById("tfq");
+	//Add listener to submit button
+	if(submitbutton.addEventListener){
+		submitbutton.addEventListener("click", function() {
+			if (submitbutton.value == 'Search our website'){//Customize this text string to whatever you want
+				submitbutton.value = '';
+			}
+		});
+	}
+}
+</script>
+<!-- CSS styles for standard search box with placeholder text-->
+<style type="text/css">
+
+	
+</style>
+</head>
+</head>
+<body>
+	<!--Header PATIENT SELECTION FORWARD-->
+	<header>
+	<center>
+		<table width="100%">
+			<tr>
+			<td class="col-md-4">
+			</td>
+			<td class="col-md-4" style="text-align: center;">
+				<img src ="images/logo.png" alt="Mozart Logo"  height = "50" width="150" />
+			</td>
+			<td class="col-md-4"> 
+		</td>
+		</tr>
+		</table>
+	</center>
+	</header>
+	<!--Title-->
+	<div class="title">
+		<table width="100%">
+		<tr>
+		<td class="col-md-4">
+		<a href="start.htm">
+			<h3>< Back to Login</h3>
+		</a>
+		</td>
+		<td class="col-md-4">
+		<h1>Patient Search</h1>
+		</td>
+		<td class="col-md-4">
+		</td>
+		</table>
+	</div>
+	<!--Content-->
+	<!-- HTML for SEARCH BAR -->
+	<center>
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action=""> <!--Should open the SQL patient List-->
+		        <input type="text" id="tfq" class="tftextinput2" name="q" size="50" maxlength="120" value="Enter Patient First and Last Name"><input type="submit" value="Search" class="tfbutton2">
+		</form>
+		<div class="tfclear"></div>
+	</div>
+	</center>
+	<div class="selection">
+	<center>
+		<table>
+			<tr>
+				<td class="col-md-6" align="center">
+					<h3><b>Patient Name</b></h3>
+				</td>
+				<td class="col-md-2" align="center">
+					<h3><b>Patient ID</b></h3>
+				</td>
+				<td class="col-md-4" align="center">
+				</td>
+			</tr>
+			<tr>
+				<td class="col-md-6" align="center">
+					<h3>Janice White</h3>
+				</td>
+					<td class="col-md-2" align="center">
+					<h3>001</h3>
+				</td>
+				<td>
+				<form id="selectpatient" method="get" action="patient-profile.htm">
+					<input type="submit" value="Select" class="tfbutton2">
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="col-md-6" align="center">
+					<h3>James Bond</h3>
+				</td>
+					<td class="col-md-2" align="center">
+					<h3>007</h3>
+				</td>
+				<td>
+					<form id="selectpatient" method="get" action="patient-profile.htm">
+					<input type="submit" value="Select" class="tfbutton2">
+					</form>
+				</td>
+				</td>
+			</tr>
+			<tr>
+				<td class="col-md-6" align="center">
+					<h3>Pussy Galore</h3>
+				</td>
+					<td class="col-md-2" align="center">
+					<h3>003</h3>
+				</td>
+				<td>
+					<form id="selectpatient" method="get" action="patient-profile.htm">
+					<input type="submit" value="Select" class="tfbutton2">
+					</form>
+				</td>
+				</td>
+			</tr>
+		</table>
+		</center>
+
+	</div>
+<!--Footer-->
+	<footer>
+	<center>
+	<table>
+	<tr>
+	<td>
+					<a href="new-user.htm">
+						<img src="images/new_user.png" alt="New User" height="100" width="100"  />
+					</a>
+	</td>
+	<td>
+	<a href="new-user.htm">
+	<h2> New Patient</h2>
+	</a>
+	</td>
+	
+	<tr>
+	<td>
+					<a href="doctor-help.htm">
+						<img src="images/help.png" alt="Help" height="100" width="100"  />
+					</a>
+	</td>
+	<td>
+	<a href="doctor-help.htm">
+	<h2> Help</h2>
+	</a>
+	</td>
+	</tr>
+	</table>
+	</center>
+	</footer>
+	</body>
+	</html>

@@ -68,73 +68,82 @@ function populate(form) {
 
 
 <div class="input-table">
-	<center>
+<center>
+<h2><b>Exercise Force</b></h2>
 		<table>
-			<tr>
-				
-					<h2><b>Exercise Force</b></h2>
-			</tr>
+					
 			<tr>
 					<select>
-						<option value="1">1 N</option>
-						<option value="2">2 N</option>
-						<option value="3">3 N</option>
-						<option value="4">4 N</option>
-						<option value="5">5 N</option>
+						<option name="force" value="1">1 N</option>
+						<option name="force" value="2">2 N</option>
+						<option name="force" value="3">3 N</option>
+						<option name="force" value="4">4 N</option>
+						<option name="force" value="5">5 N</option>
 					</select>
 				</tr>
 				<tr>
 				
+					</table>
+							</center>
+							<center>
 					<h2><b>Exercise Range</b></h2>
-			</tr>
-				<tr>
-					<td>
+					</center>
+					<center>
+					<table>
+					</tr>
+					<tr>
+					<th>
 						<h4><b>X Range</b><h4>
-					</td>
-					<td>
+					</th>
+					<td style="padding: 5px">
 						<select>
-						<option value="0">0 cm</option>
-						<option value="5">5 cm</option>
-						<option value="10">10 cm</option>
+						<option name="xmin" value="0">0 cm</option>
+						<option name="xmin" value="5">5 cm</option>
+						<option name="xmin" value="10">10 cm</option>
 					</select>
 					</td>
 					<td>
 						<select>
-						<option value="20">20 cm</option>
-						<option value="25">25 cm</option>
-						<option value="30">30 cm</option>
-						<option value="35">35 cm</option>
-						<option value="40">40 cm</option>
-						<option value="45">45 cm</option>
+						<option name="xmax" value="20">20 cm</option>
+						<option name="xmax" value="25">25 cm</option>
+						<option name="xmax" value="30">30 cm</option>
+						<option name="xmax" value="35">35 cm</option>
+						<option name="xmax" value="40">40 cm</option>
+						<option name="xmax" value="45">45 cm</option>
 					</select>
 					</td>
+					<td rowspan="4" style="padding:10px"><img scr="images/range.png" alt="X Y Graph" width="200" height="200"/></td>
 				</tr>
 				<tr>
-					<td>
+					<th>
 						<h4><b>Y Range</b></h4>
-					</td>
+					</th>
 					<td>
 						<select>
-						<option value="0">0 cm</option>
-						<option value="5">5 cm</option>
-						<option value="10">10 cm</option>
-						<option value="15">15 cm</option>
-						<option value="20">20 cm</option>
+						<option name= "ymin" value="0">0 cm</option>
+						<option name= "ymin" value="5">5 cm</option>
+						<option name= "ymin" value="10">10 cm</option>
+						<option name= "ymin" value="15">15 cm</option>
+						<option name= "ymin" value="20">20 cm</option>
 					</select>
 					</td>
 					<td>
 					<select>
-					<option value="40">40 cm</option>
-						<option value="45">45 cm</option>
-						<option value="50">50 cm</option>
-						<option value="55">55 cm</option>
-						<option value="60">60 cm</option>
-						<option value="65">65 cm</option>
-						<option value="70">70 cm</option>
+					<option name= "ymax" value="40">40 cm</option>
+						<option name= "ymax" value="45">45 cm</option>
+						<option name= "ymax" value="50">50 cm</option>
+						<option name= "ymax" value="55">55 cm</option>
+						<option name= "ymax" value="60">60 cm</option>
+						<option name= "ymax" value="65">65 cm</option>
+						<option name= "ymax" value="70">70 cm</option>
 						
 					</select>
 					</td>
 				</tr>
+				</table>
+			</center>
+			<center>
+			<table>
 				<tr>
 					<td>
 						<center>
@@ -153,8 +162,9 @@ function populate(form) {
 					</center>
 				</td>
 			</tr>
-		</table>
-	</center> 
+</table>
+
+	</center>
 	
 	<!--Footer-->
 	<footer>

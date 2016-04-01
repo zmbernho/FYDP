@@ -58,8 +58,8 @@ width: 50%;
 
 /* Menu Scene Elements */
 a[href='#game'] {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	background: url(../images/play_button.png);
 	overflow: hidden;
 	display: block;	
@@ -70,57 +70,12 @@ a[href='#game']:hover {
 }
 
 a[href='#game']:active {
-	background-position: -292px;
+	background-position: 105px;
 }
 
 a[href='#game'] span {
 	display: block;
-	margin-top: -999px;
-}
-
-/* Game Scene Elements */
-
-.hit-line {
-	background: url(../images/hit_line.png);
-	position: absolute;
-	width: 50px;
-	height: 50px;
-}
-
-
-.show {
-	opacity: 1;
-}
-
-.hide{
-	opacity: 0;
-	-webkit-transition: opacity .2s linear;
-	-moz-transition: opacity .2s linear;
-	transition: opacity .2s linear;	
-}
-
-#hit-line-1 {
-	left: 130px;
-	bottom: 378px;
-}
-
-#hit-line-2 {
-	left: 130px;
-	bottom: 303px;
-	}
-
-#hit-line-3 {
-	left: 130px;
-	bottom: 228px;
-}
-#hit-line-4 {
-	left: 130px;
-	top: 153px;
-}
-
-#hit-line-5 {
-	left: 130px;
-	bottom:78px;
+	margin-top: -55px;
 }
 
 .game p {

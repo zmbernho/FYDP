@@ -58,10 +58,10 @@ input {
 }
 
 .input-table tr td h3{
-padding-top: 10px;
-padding-bottom: 5px;
-padding-right: 10px;
-padding-left: 5px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+padding-left: 20px;
 }
 
 .main td{
@@ -87,17 +87,17 @@ padding-left: 5px;
 		font-weight:bold;
 		text-align: center;
 		color: #000000;
-		border: solid 1px #D3D3D3;
-		background: #D3D3D3;
-		background: -webkit-gradient(linear, left top, left bottom, from(#D3D3D3), to(#C0C0C0));
-		background: -moz-linear-gradient(top,  #D3D3D3,  #C0C0C0);
+		border: solid 1px #13A89E;
+		background: #13A89E;
+		background: -webkit-gradient(linear, left top, left bottom, from(#13A89E), to(#13A89E));
+		background: -moz-linear-gradient(top,  #13A89E,  #13A89E);
 		border-radius: 5px;
 	}
 	.tfbutton2:hover {
 		text-decoration: none;
-		background: #C0C0C0;
-		background: -webkit-gradient(linear, left top, left bottom, from(#D3D3D3), to(#C0C0C0));
-		background: -moz-linear-gradient(top,  #D3D3D3,  #C0C0C0);
+		background: #D3D3D3;
+		background: -webkit-gradient(linear, left top, left bottom, from(#D3D3D3), to(#D3D3D3));
+		background: -moz-linear-gradient(top,  #D3D3D3,  #D3D3D3);
 	}
 	/* Fixes submit button height problem in Firefox */
 	.tfbutton2::-moz-focus-inner {
@@ -169,3 +169,7 @@ padding-left: 5px;
         .tab.active {
             display:block;
         }
+        .patient-main td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
